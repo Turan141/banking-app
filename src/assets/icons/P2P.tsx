@@ -1,5 +1,3 @@
-import React from "react"
-
 export const P2P = () => {
 	return (
 		<svg
