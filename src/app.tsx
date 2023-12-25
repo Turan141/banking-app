@@ -79,7 +79,7 @@ const MainApp = ()=>{
 	GD.S_MAIN_BURGER_CLICK.use([sideMenuState],()=>setSideMenuState(!sideMenuState))
 	const menuSize="70%"
 
-	const authStatus = S_AUTH_STATUS.use([]);
+	// const authStatus = S_AUTH_STATUS.use([]);
 	console.log(S_AUTH_STATUS)
 
 	// TODO: if show optimistic ui first

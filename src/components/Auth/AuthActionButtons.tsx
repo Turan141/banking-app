@@ -15,6 +15,7 @@ export const AuthBackButton = () => {
 }
 
 export const AuthNextButton: React.FC<IAuthActionButtonsProps> = ({ isDisabled }) => {
+  //@ts-ignore
   const [isLoading, setIsLoading] = useState(false)
 
   const handleAuthNextBtn = async () => {

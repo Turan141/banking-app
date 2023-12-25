@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material"
+import { Box } from "@mui/material"
 import { Plus } from "../assets/icons/Plus"
 import { Burger } from "../assets/icons/Burger"
 import { GD } from "../GD"

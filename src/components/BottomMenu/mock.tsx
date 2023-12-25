@@ -1,6 +1,4 @@
-import { Accounts } from "../../assets/icons/Accounts"
 import { Card } from "../../assets/icons/Card"
-import { Dukascoin } from "../../assets/icons/Dukascoin"
 import { Invest } from "../../assets/icons/Invest"
 import { ReactNode } from "preact/compat"
 import { Bank } from "../../assets/icons/Bank"

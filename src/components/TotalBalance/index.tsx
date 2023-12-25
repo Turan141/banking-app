@@ -17,6 +17,7 @@ const TotalBalance = () => {
 		accountHomeData?.account.notifications["DUKASCOINS.ORDERS.EMAIL"] || 0
 
 	return (
+		// @ts-ignore
 		<Box onClick={()=>S_PRESENT_SCREEN_ON_MAIN.invoke({screen:Screens.START})} display='flex' alignItems='center' justifyContent='space-between'>
 			<Box>
 				<Typography

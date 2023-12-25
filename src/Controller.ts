@@ -1,3 +1,4 @@
+//@ts-nocheck
 import GD from "../GD";
 import { Services } from "../utils/Services";
 import { WSMessage } from "../net/constans";

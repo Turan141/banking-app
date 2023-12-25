@@ -1,6 +1,5 @@
-import { Box, Typography, IconButton, Button } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import { CardExample } from "../../../assets/icons/CardExample"
-import { CloseIcon } from "../../../assets/icons/CloseIcon"
 import { RectangleButton } from "../../../components/Buttons/RectangleButton"
 import { PlasticCard } from "../../../assets/icons/PlasticCard"
 import { VirtualCard } from "../../../assets/icons/VirtualCard"

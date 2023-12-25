@@ -86,6 +86,7 @@ class ScreenManager{
     }
 
     // Экран закончил свой показ - убираем предыдущий экран из списка экранов
+    //@ts-ignore
     onComplete(req:IScreenShowRequest){
         if(this.screens.length<2)
             return;

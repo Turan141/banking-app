@@ -1,4 +1,4 @@
-import { Box, Typography, IconButton } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import { CloseIcon } from "../assets/icons/CloseIcon"
 
 interface PopupScreenHeaderProps {

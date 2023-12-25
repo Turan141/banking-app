@@ -16,7 +16,6 @@ export const AccountStatItem: React.FC<{
 				width: 210,
 				height: 120,
 				p: 2,
-				pb: 0,
 				position: "relative",
 				borderRadius: "12px",
 				backgroundColor: "transparent",
