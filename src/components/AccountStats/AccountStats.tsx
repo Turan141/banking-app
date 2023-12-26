@@ -62,6 +62,7 @@ const AccountStats: React.FC = () => {
           display: "flex",
           scrollSnapType: "x mandatory",
           paddingLeft: "50%",
+          paddingRight: "50%",
         }}
         overflow="scroll"
         alignItems="center"
