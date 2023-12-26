@@ -40,7 +40,7 @@ const AccountStats: React.FC = () => {
 
   useEffect(() => {
     if (statsContainer.current) {
-      statsContainer.current.addEventListener("touchend", handleTouchEnd);
+      statsContainer.current.addEventListener("touchend", handleTouchEnd, { passive: true });
     }
 
     return () => {
@@ -52,7 +52,7 @@ const AccountStats: React.FC = () => {
         clearTimeout(scrollTimerRef.current);
       }
     };
-  }, []);
+  }, [handleTouchEnd]);
 
   return (
     <Box display="flex" flexDirection="column" position="relative">
